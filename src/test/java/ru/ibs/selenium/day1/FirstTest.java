@@ -35,6 +35,7 @@ public class FirstTest {
 
     @Test
     @Tag(Tags.SECOND)
+    @RepeatedTest(3)
     @DisplayName("My first test")
     public void firstTest(){
         //Given

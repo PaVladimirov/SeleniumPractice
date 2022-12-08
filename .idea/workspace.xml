@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec45007f-9652-4569-88b8-7651fc63ded4" name="Changes" comment="MathTests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/OrderedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/Tags.java" afterDir="false" />
+    <list default="true" id="ec45007f-9652-4569-88b8-7651fc63ded4" name="Changes" comment="Tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/FirstTest.java" afterDir="false" />
     </list>
@@ -112,7 +110,7 @@
       <module name="SeleniumPractice" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="tags" />
-      <tag value="first" />
+      <tag value="second" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670494102308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tags">
+      <created>1670496604878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670496604878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="MathTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="MathTests" />
+    <MESSAGE value="Tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tags" />
   </component>
 </project>
