@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec45007f-9652-4569-88b8-7651fc63ded4" name="Changes" comment="Tags">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ibs/selenium/day2/ExceptionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ibs/selenium/day2/MultipleConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ibs/selenium/day2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day2/AssertionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ibs/selenium/day1/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IcgwD9k4DtJaqH1ZwilsrI4huc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,65 +48,82 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run by tag">
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertionTest.myTest">
+    <configuration name="AssertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.selenium.day1.*" />
+          <option name="PATTERN" value="ru.ibs.selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day1" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day1.FirstTest" />
+      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day2" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day2.AssertionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionTest.failTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.selenium.day1.*" />
+          <option name="PATTERN" value="ru.ibs.selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day1" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day1.MathTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathTest.verifyDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.ibs.selenium.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day1" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day1.MathTest" />
-      <option name="METHOD_NAME" value="verifyDivision" />
+      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day2" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day2.AssertionTest" />
+      <option name="METHOD_NAME" value="failTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionTest.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.selenium.day1.*" />
+          <option name="PATTERN" value="ru.ibs.selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day1" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day1.OrderedTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day2" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day2.AssertionTest" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.nullNotNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.selenium.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day2" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day2.AssertionTest" />
+      <option name="METHOD_NAME" value="nullNotNullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.timeoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.selenium.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ibs.selenium.day2" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.selenium.day2.AssertionTest" />
+      <option name="METHOD_NAME" value="timeoutTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,17 +139,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Run by tag" />
-      <item itemvalue="JUnit.FirstTest" />
-      <item itemvalue="JUnit.MathTest" />
-      <item itemvalue="JUnit.MathTest.verifyDivision" />
-      <item itemvalue="JUnit.OrderedTest" />
+      <item itemvalue="JUnit.AssertionTest" />
+      <item itemvalue="JUnit.AssertionTest.failTest" />
+      <item itemvalue="JUnit.AssertionTest.myTest" />
+      <item itemvalue="JUnit.AssertionTest.nullNotNullTest" />
+      <item itemvalue="JUnit.AssertionTest.timeoutTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.OrderedTest" />
-        <item itemvalue="JUnit.MathTest.verifyDivision" />
-        <item itemvalue="JUnit.MathTest" />
+        <item itemvalue="JUnit.AssertionTest.myTest" />
+        <item itemvalue="JUnit.AssertionTest" />
+        <item itemvalue="JUnit.AssertionTest.failTest" />
+        <item itemvalue="JUnit.AssertionTest.timeoutTest" />
+        <item itemvalue="JUnit.AssertionTest.nullNotNullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670496604878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tags">
+      <created>1670499401723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670499401724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
