@@ -34,4 +34,29 @@ public class Person {
     public int hashCode() {
         return Objects.hash(firstName, middleName, lastName);
     }
+
+    public String getFullName(){
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(firstName);
+
+        if (middleName != null && !middleName.isEmpty()){
+            sb.append(" ");
+            sb.append(middleName);
+        }
+
+        sb.append(" ");
+        sb.append(lastName);
+
+        return sb.toString();
+    }
+
+    public Person(String personStr){
+        String [] parts = personStr.split(";");
+        firstName=parts[0];
+        middleName=parts[1];
+        lastName=parts[2];
+        //ненадежный код, тк пердполагается что всегда в конструктор падает 3 элемента ращделенные точкой с запятой
+        //но для тренирвоки ОК
+    }
 }
